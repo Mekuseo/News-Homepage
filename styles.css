@@ -1,0 +1,136 @@
+/*# sourceMappingURL=styles.css.map */
+html {
+  box-sizing: border-box;
+  width: 375px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.hamburger {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.header {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.header-img {
+  width:95%;
+  align-self: center;
+}
+
+.heading {
+  margin: 15px 2px;
+  font-size: 2.8rem;
+  font-weight: 900;
+  text-align: left;
+  line-height: 1em;
+}
+
+.header p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.3em;
+  margin: 15px 2px ;
+}
+
+.header-button {
+  background-color: hsl(5, 85%, 63%);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 2px 0 20px 2px;
+}
+
+.header-btn {
+  text-align: left;
+}
+
+.main-top {
+  background-color: hsl(240, 100%, 5%);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin: 0 10px 40px 10px;
+}
+
+.ul {
+  border-bottom: 1px solid hsl(233, 8%, 79%);
+  padding: 8px;
+}
+
+.top h1 {
+  color: hsl(35, 77%, 62%);
+  margin-bottom: 15px;
+}
+
+.top h2 {
+  color: hsl(36, 100%, 99%);
+  font-size: 1.3em;
+}
+
+.top p {
+  color: hsl(233, 8%, 79%)
+}
+
+.main-bot h1 {
+  color: hsl(233, 8%, 79%);
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+.main-bot h2 {
+  color: black;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+  font-weight: 900;
+}
+
+.main-bot p {
+  color: hsl(233, 8%, 79%);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.main-bot-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 10px 26px 10px;
+}
+
+.main-bot-container img {
+  width: 130px;
+  margin-right: 20px;
+}
+
+.bot-split > *{
+  margin: 0;
+}
+
